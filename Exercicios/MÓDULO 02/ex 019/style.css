@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id -> em CSS é #
+    em HRML é class - em CSS é .
+
+
+*/
+body{
+    background-color: #97B9C2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #153942;
+}
+
+h1#principal{
+    text-align: center;
+    background-color:#153942;
+    color: white;
+}
+
+h2{
+    color: #256273;
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgb(231, 231, 164);
+}
+p{
+    color: #256273;
+}
