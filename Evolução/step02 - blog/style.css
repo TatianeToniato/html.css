@@ -13,17 +13,17 @@
 .superior {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 150px;
     border-bottom: 1px solid lightgray;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 img.logo {
-    max-width: 170px;
-    max-height: 100px;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 .navegacao {
@@ -31,10 +31,61 @@ img.logo {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
     height: 50px;
     border-bottom: 1px solid lightgray;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.menu1 {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+.menu1:hover {
+    color: darkolivegreen;
+}
+
+.menu2 {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+.menu2:hover {
+    color: firebrick;
+}
+
+.menu3 {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+.menu3:hover {
+    color: darkblue;
+}
+
+.menu4 {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+.menu4:hover {
+    color: aquamarine;
+}
+
+.menu5 {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+.menu5:hover {
+    color: darkviolet;
 }
 
 .conteudo {
@@ -43,64 +94,38 @@ img.logo {
 }
 
 .esquerda {
-    width: 700px;
+    width: 800px;
     border-right: 1px solid lightgrey;
-}
-
-.meio {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    border-right: 1px solid lightgrey;
-
-}
-
-.quatro {
-    height: 215px;
-    background-color: blueviolet;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 20px;
 }
 
 .direita {
-    width: 350px;
-
+    width: 500px;
 }
 
-.cinco {
-    height: 313px;
-    background-color: lightsalmon;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 20px;
-}
-
-div.um {
+.texto1 {
+    background-image: url("imagens/capa1.jpg");
+    width: 700px;
     height: 500px;
-    background-color: blue;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 20px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    border-bottom: 10px solid darkblue;
 }
 
-div.dois {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.texto2 {
+    background-image: url("imagens/pmp.jpg");
+    width: 400px;
+    height: 225px;
+    margin: auto;
+    margin-top: 25px;
+    border-bottom: 10px solid darkgreen;
 }
 
-div.tres {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.texto3 {
+    background-color: aquamarine;
+    width: 400px;
+    height: 225px;
+    margin: auto;
+    margin-top: 50px ;
 }
 
-.conteudo2 {
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 233.33px;
-    margin: 20px;
-    background-color: forestgreen
-}
