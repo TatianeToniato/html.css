@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fontepadrão: 'Sriracha', cursive;
+    --fontetitulo: 'Passion One', cursive;
+    --fonteauxiliar: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 270px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fontetitulo);
+    font-size: 6em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 > span {
+    font-size: 140%;
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonteauxiliar);
+    font-size: 1em;
+    letter-spacing: 0.9px;
+    text-align: center; 
+    padding-top: 6px;   
+}
+
+p > a{
+    color: white;
+}
+
+main {
+    font-family: var(--fontepadrão);
+    font-size: 3em;
+    line-height: 95px;
+    height: 100%vh;
+}
+
+#container1 {
+    max-height: 800px;
+    padding: 65px 0px 150px 30px ;
+    position: relative;
+}
+
+#conteudo1 {
+    position: absolute;
+}
+
+#container2 {
+    background: #000000 url('imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+    max-height: 580px;
+    padding: 65px 0px 150px 30px;
+    position: relative;
+
+    /*background-color: #000000;
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+#conteudo2 {
+    background-color: #00000075;
+    color: #ffffff;
+    max-width: 565px;
+    padding-left: 5px;
+    position: absolute;
+}
+
+#container3 {
+    max-width: 1600px;
+    padding: 65px 0px 150px 30px ;
+    position: relative;
+}
+
+#conteudo3 {
+    position: absolute;
+}
+
+#container4 {
+    background: #000000 url('imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+    max-height: 580px;
+    padding: 65px 0px 150px 30px;
+    position: relative;
+}
+
+#conteudo4 {
+    background-color: #00000075;
+    color: #ffffff;
+    max-width: 580px;
+    padding-left: 5px;
+    position: absolute;
+}
+
+#container5 {
+    max-width: 1600px;
+    padding: 65px 0px 150px 30px;
+    position: relative;
+}
+
+#conteudo5 {
+    position: absolute;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
