@@ -57,11 +57,6 @@ main {
 #container1 {
     max-height: 800px;
     padding: 65px 0px 150px 30px ;
-    position: relative;
-}
-
-#conteudo1 {
-    position: absolute;
 }
 
 #container2 {
@@ -69,7 +64,6 @@ main {
     background-size: cover;
     max-height: 580px;
     padding: 65px 0px 150px 30px;
-    position: relative;
 
     /*background-color: #000000;
     background-image: url(imagens/background001.jpg);
@@ -84,17 +78,11 @@ main {
     color: #ffffff;
     max-width: 565px;
     padding-left: 5px;
-    position: absolute;
 }
 
 #container3 {
     max-width: 1600px;
     padding: 65px 0px 150px 30px ;
-    position: relative;
-}
-
-#conteudo3 {
-    position: absolute;
 }
 
 #container4 {
@@ -102,7 +90,6 @@ main {
     background-size: cover;
     max-height: 580px;
     padding: 65px 0px 150px 30px;
-    position: relative;
 }
 
 #conteudo4 {
@@ -110,17 +97,11 @@ main {
     color: #ffffff;
     max-width: 580px;
     padding-left: 5px;
-    position: absolute;
 }
 
 #container5 {
     max-width: 1600px;
     padding: 65px 0px 150px 30px;
-    position: relative;
-}
-
-#conteudo5 {
-    position: absolute;
 }
 
 footer {
