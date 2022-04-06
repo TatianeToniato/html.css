@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        table {
+            width: 600px;
+            height: 250px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+        th {
+            height: 30px;
+        }
+        td {
+            padding-left: 7px;
+        }
+
+        .idade {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup> <!--Utilizar quando quer destacar ou estilizar no css uma coluna-->
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade" span="2"> <!--utilizar o span quando quer dizer que tudo que se aplica a esta coluna também se aplica a coluna do lado-->
+            <col class="prof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>19</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>M</td>
+                <td>49</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Administrador</td>
+            </tr>
+            <tr>
+                <td>Tatiane</td>
+                <td>F</td>
+                <td>32</td>
+                <td>Gerente de Projetos</td>
+            </tr>
+            <tr>
+                <td>Izabele</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Engenheira Ambiental</td>
+            </tr>
+            <tr>
+                <td>Vinícius</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Piloto</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
